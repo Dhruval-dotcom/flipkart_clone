@@ -32,6 +32,10 @@ header{
     letter-spacing: 1.5px;
     
 }
+.header-left a:hover{
+    color: white;
+    text-decoration: none;
+}
 .header-left-p a{
     font-size: 10px;
     letter-spacing: 1.5px;
@@ -180,13 +184,19 @@ header{
 /* <!-- banner section styling ends here--> */
 
 /* <!-- Mobile section styling starts here--> */
-
-
+#cbz{
+    background-color: rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
+}
+.imgad{
+    box-shadow: rgba(177, 174, 174, 0.46) 0px 0px 5px 1px; 
+}
 .card{
-    box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
-    padding: 10px 0px;
-    margin: 10px 5px;
-    border-radius: 5px;
+    box-shadow: rgba(177, 174, 174, 0.46) 0px 0px 5px 1px; 
+    padding: 0px 0px;
+    margin: 15px 130px;
+    border-radius: 2px;
+    background-color: white;
 }
 .common-heading{
     display: flex;
@@ -194,7 +204,8 @@ header{
     width: 100%;
     padding: 5px 20px;
     margin-top: 20px;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+    border-bottom: 1px solid #0000001c;
+    /*box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);*/
 }
 .common-heading-left h1{
     font-size: 20px;
@@ -208,9 +219,13 @@ header{
     font-weight: 200;
 }
 .common-heading-right button{
-    width: 90px;
+    margin-top: 15px;
+    padding: 2px 8px;
+    text-transform:uppercase;
+    font-weight: bold;
+    width: 100px;
     height: 40px;
-    font-size: 18px;
+    font-size: 13px;
     background-color: #2874f0;
     border: none;
     color: white;
@@ -230,22 +245,25 @@ header{
     width: 100%;
     max-height: 366px;
     margin: 10px 0px;
+    /*padding-left: 19px;*/
 }
 .common-col{
     text-align: center;
     line-height: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .common-col h3:hover{
     text-decoration: underline;
 }
 .common-col img{
-    width: 69px;
+    width: 100px;
     height: 120px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     transition: 300ms;
 }
 .common-col img:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 .common-col h3,h4,h6{
     text-transform: capitalize;
@@ -273,31 +291,43 @@ header{
     top: 10000px;
 }
 
-/* <!-- headphones and speaker section --> */
 .col-headphones img{
     width: 125px;
     height: 150px;
 }
 
-/* <!-- mens clothing --> */
-.col-men img{
-    width: 126px;
-    height: 150px;
-}
-
-/* <!-- Furniture Bestsellers section --> */
-
-
 .col-furniture img{
     width: 130px;
     width: 150px;
 }
+.col-men img{
+    width: 142px;
+    height: 150px;
+}   
 
-/* <!-- trending offers section --> */
-.col-tranding img{
+.col-men{
+    margin-right: 46px;
+}
+
+.col-headphones{
+    margin-right: 54px;
+}
+.col-phones{
+    margin-right: 54px;
+}
+
+.col-furniture {
+    margin-right: 39px;
+}
+
+.col-trending{
+    margin-right: 50px;
+}
+.col-trending img{
     width: 130px;
     height: 150px;
 }
+
 
 
 /* <!-- footer --> */
@@ -407,4 +437,73 @@ footer{
     cursor: pointer;
     padding-right: 10px;
     font-size: 15px;
+}
+
+/*product page */
+.fa-tag{
+    color: #ff6000;
+}
+#seeoffer{
+    color: rgba(37, 37, 207, 0.562);
+}
+.tnc{
+    color: rgba(37, 37, 207, 0.562);
+}
+.toprat{
+    font-size: 20px;
+    padding-left: 5px;
+    color: white;
+    background-color: #388e3c;
+    border-radius: 4px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+#addcart{
+    background-color: #ff9f00;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 55px;
+    margin-left: 38px;
+}
+#buynow{
+    background-color: #fb641b;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+    height: 55px;
+}
+.tablehead{
+    color: rgba(0, 0, 0, 0.507);
+}
+#imagepro{
+    height: 700px;
+    width: 600px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#deliinput{
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 255, 0.699);
+}
+#sellerrating{
+    font-weight: bold;
+    border-radius: 9px;
+    padding-left: 6px;
+    color:white;
+    background-color: rgba(83, 83, 236, 0.671);
+}
+.fa-star{
+    color: white;
+}
+
+.frontl-middle{
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+    border-right: 1px solid rgba(0, 0, 0, 0.192);
+    border-left: 1px solid rgba(0, 0, 0, 0.192);
+}
+#namepro{
+    text-transform: capitalize;
 }
